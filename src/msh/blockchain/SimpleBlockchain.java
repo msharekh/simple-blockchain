@@ -22,11 +22,7 @@ public class SimpleBlockchain {
     
     public static void main(String[] args) {
         // TODO code application logic here
-//        String[] list1 = {"a","b","c"};
-//        String[] list2 = {"a","b","c"};
-//
-//        System.out.println(Arrays.hashCode(list1)); //digital signature of list1
-//        System.out.println(Arrays.hashCode(list2));
+
 
         String[] genesisTransactions = {"Mishal send 100$ to Nabeel","Nabeel send 10$ to Ahmed"};
         Block genesisBlock = new Block(0,genesisTransactions);
