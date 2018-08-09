@@ -5,6 +5,8 @@
  */
 package msh.blockchain;
 
+import java.util.Arrays;
+
 /**
  *
  * @author msharekh
@@ -16,6 +18,12 @@ public class SimpleBlockchain {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String[] list1 = {"a","b","c"};
+        String[] list2 = {"a","b","c"};
+
+        System.out.println(Arrays.hashCode(list1)); //digital signature of list1
+        System.out.println(Arrays.hashCode(list2));
+        
     }
     
 }
